@@ -13,6 +13,7 @@ body {
 }
 
 .container{
+	max-width: 1200px;
 	width: 90%;
 	display: flex;
 	justify-content: center;
@@ -213,12 +214,15 @@ footer {
 
 	header {
 		display: flex;
-  		align-items: flex-start;
-		flex-wrap: nowrap;
+		justify-content: center;
+		align-items: center;
+		flex-flow: row wrap;
 	}
 
 		header h1 {
-			border-bottom: 0 solid #77a466;	
+			width: 40%;
+			padding: 1em 0;
+			border-bottom: 0 solid #77a466;	;
 			text-align: left;
 		}
 
@@ -226,6 +230,7 @@ footer {
 		flex-wrap: nowrap;	
 		padding: 2.875em 0;
 		text-align: right;
+		width: 60%;
 	}
 
 		header nav ul li {
